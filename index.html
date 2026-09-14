@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHANVERSE - Shah Rukh Khan Portfolio</title>
+    <meta name="description" content="The official digital legacy portfolio of Shah Rukh Khan. Explore films, awards, and the legacy of the King of Bollywood.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background scroll animation canvas -->
+    <canvas id="hero-canvas"></canvas>
+    
+    <div id="content-wrapper">
+        <header class="navbar">
+            <div class="logo">KHANVERSE</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#films">Films</a>
+                <a href="#awards">Awards</a>
+                <a href="#legacy">Legacy</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="home" class="hero-section fade-in">
+            <div class="hero-content">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="main-title">Shah Rukh Khan</h1>
+                <p class="hero-tagline">The King of Bollywood</p>
+                
+                <div class="hero-bottom-row">
+                    <div class="hero-left-text">
+                        <div class="hero-buttons">
+                            <a href="#films" class="btn btn-primary">Explore Films ↗</a>
+                            <a href="#legacy" class="btn btn-secondary">The Legacy ↘</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section fade-in">
+            <div class="about-text">
+                <p class="about-lead">From television screens to becoming the face of Indian cinema globally.</p>
+                <p class="about-body">
+                    Shah Rukh Khan, often referred to as the "Baadshah of Bollywood," is an Indian actor, film producer, and television personality. With a career spanning over three decades, he has starred in more than 90 films and earned numerous accolades, including 14 Filmfare Awards. 
+                </p>
+                <p class="about-body">
+                    Known for his unmatched versatility—effortlessly transitioning between iconic romance, intense drama, sharp comedy, and high-octane action—he isn't just an actor; he is an emotion for millions worldwide. His journey is a testament to dedication, charm, and the sheer power of dreams.
+                </p>
+            </div>
+        </section>
+
+        <section id="films" class="projects-section fade-in">
+            <div class="projects-header">
+                <p class="subtitle">✦ Cinematic Showcase</p>
+                <h2>Iconic Films That Defined Eras</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Movie 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Dilwale Dulhania Le Jayenge by Aditya Chopra_.jpeg" alt="Dilwale Dulhania Le Jayenge">
+                        <div class="movie-overlay">
+                            <span class="movie-year">1995</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dilwale Dulhania Le Jayenge</h3>
+                        <p>The timeless romance that redefined love for generations.</p>
+                        <span class="tag">Romance</span>
+                    </div>
+                </div>
+
+                <!-- Movie 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Them🤌🏻✨.jpeg" alt="Kabhi Khushi Kabhie Gham">
+                        <div class="movie-overlay">
+                            <span class="movie-year">2001</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kabhi Khushi Kabhie Gham...</h3>
+                        <p>An epic family saga that resonated across the globe.</p>
+                        <span class="tag">Family Drama</span>
+                    </div>
+                </div>
+                
+                <!-- Movie 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Veer-Zaara (2004).jpeg" alt="Veer-Zaara">
+                        <div class="movie-overlay">
+                            <span class="movie-year">2004</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Veer-Zaara</h3>
+                        <p>A cross-border romance depicting an immortal love story.</p>
+                        <span class="tag">Epic Romance</span>
+                    </div>
+                </div>
+
+                <!-- Movie 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Kal Ho Naa Ho (2003).jpeg" alt="Kal Ho Naa Ho">
+                        <div class="movie-overlay">
+                            <span class="movie-year">2003</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kal Ho Naa Ho</h3>
+                        <p>Teaching the world to smile through tears and live in the moment.</p>
+                        <span class="tag">Romantic Drama</span>
+                    </div>
+                </div>
+                
+                <!-- Movie 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Dil se.jpeg" alt="Dil Se..">
+                        <div class="movie-overlay">
+                            <span class="movie-year">1998</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dil Se..</h3>
+                        <p>A hauntingly beautiful tale of obsession and political turmoil.</p>
+                        <span class="tag">Romantic Thriller</span>
+                    </div>
+                </div>
+
+                <!-- Movie 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="films/Kuch Kuch Hota Hai (1998) - Something Happens_.jpeg" alt="Kuch Kuch Hota Hai">
+                        <div class="movie-overlay">
+                            <span class="movie-year">1998</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kuch Kuch Hota Hai</h3>
+                        <p>A pop-culture phenomenon celebrating friendship and love.</p>
+                        <span class="tag">Romance / Drama</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="awards" class="awards-section fade-in">
+            <div class="projects-header">
+                <p class="subtitle">✦ Recognitions</p>
+                <h2>Major Achievements</h2>
+            </div>
+            <div class="awards-timeline">
+                <div class="award-card glass-card">
+                    <div class="award-year">14x</div>
+                    <div class="award-info">
+                        <h4>Filmfare Awards</h4>
+                        <p>Including 8 Best Actor awards, making him the most awarded actor in the category's history.</p>
+                    </div>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="award-year">2005</div>
+                    <div class="award-info">
+                        <h4>Padma Shri</h4>
+                        <p>Awarded the fourth-highest civilian award by the Government of India for his contribution to Indian cinema.</p>
+                    </div>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="award-year">2014</div>
+                    <div class="award-info">
+                        <h4>Légion d'honneur</h4>
+                        <p>Awarded France's highest civilian honor, the Order of the Legion of Honour.</p>
+                    </div>
+                </div>
+                <div class="award-card glass-card">
+                    <div class="award-year">Global</div>
+                    <div class="award-info">
+                        <h4>Honorary Doctorates</h4>
+                        <p>Received multiple honorary doctorates from esteemed universities worldwide, including the University of Edinburgh.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="legacy" class="legacy-section fade-in">
+            <h2 class="legacy-title">THE LEGACY</h2>
+            <div class="legacy-themes">
+                <div class="legacy-item">
+                    <h3>The King of Romance</h3>
+                </div>
+                <div class="legacy-item">
+                    <h3>Global Icon</h3>
+                </div>
+                <div class="legacy-item">
+                    <h3>Box Office Powerhouse</h3>
+                </div>
+                <div class="legacy-item">
+                    <h3>Versatile Performer</h3>
+                </div>
+                <div class="legacy-item">
+                    <h3>Producer & Entrepreneur</h3>
+                </div>
+                <div class="legacy-item">
+                    <h3>Global Indian Cinema Icon</h3>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="footer">
+            <h2 class="footer-logo">KHANVERSE</h2>
+            <p class="footer-tagline">"The King. The Icon. The Legacy."</p>
+            <div class="footer-links">
+                <a href="#home">Home</a> | 
+                <a href="#about">About</a> | 
+                <a href="#films">Films</a> | 
+                <a href="#awards">Awards</a> | 
+                <a href="#legacy">Legacy</a> | 
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="footer-copy">© 2026 KHANVERSE. Digital Portfolio.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
