@@ -39,8 +39,8 @@ canvas {
     max-height: 100vh;
     object-fit: contain;
     z-index: 1; 
-    opacity: 0.5; /* Darkened further for cinematic feel */
-    filter: contrast(1.1) brightness(0.8);
+    opacity: 0.85; /* Brightened so SRK is visible */
+    filter: contrast(1.1) brightness(1.0);
 }
 
 #content-wrapper {
@@ -217,7 +217,7 @@ canvas {
 /* About Section */
 .about-section {
     padding: 120px 5%;
-    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.9));
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.5));
 }
 
 .about-text {
@@ -405,7 +405,7 @@ canvas {
 /* Legacy Section */
 .legacy-section {
     padding: 150px 5%;
-    background: radial-gradient(circle at center, rgba(30,25,10,0.9) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle at center, rgba(30,25,10,0.4) 0%, rgba(0,0,0,0.6) 100%);
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -459,7 +459,7 @@ canvas {
 .footer {
     text-align: center;
     padding: 80px 5% 40px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid var(--glass-border);
 }
 

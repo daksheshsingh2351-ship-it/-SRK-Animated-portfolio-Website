@@ -117,3 +117,4 @@ const observer = new IntersectionObserver((entries, observer) => {
 
 const fadeElements = document.querySelectorAll('.fade-in');
 fadeElements.forEach(el => observer.observe(el));
+
