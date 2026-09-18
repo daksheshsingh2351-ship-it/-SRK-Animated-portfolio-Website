@@ -26,6 +26,7 @@ The website features an animated opening/loading experience followed by an inter
 - Ddlj
 - Veer-Zara
 - Kabhi khushi kabhi gam
+  
 ## 🛠️ Technologies Used
 
 - HTML5
